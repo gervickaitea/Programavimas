@@ -42,7 +42,7 @@ int generate_random_mark() //sugeneruoja random skaiciu nuo 1 iki 10
     return rand() % 10 + 1;
 }
 
-void automated_marks_input(duomenys Eil[], int i, int how_many_marks) //funckija automatiskai suveda pazymius ir egz. pazymi
+void automated_marks_input(duomenys Eil[], int i, int how_many_marks) //funckija automatiskai suveda pazymius ir egzamino pazymi
 {
     Eil[i].egz = generate_random_mark();
     for (int x = 0; x < how_many_marks; x++)
